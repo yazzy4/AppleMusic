@@ -17,7 +17,7 @@ extension API {
                 var resultCount: Int
                 var results: [Result]
                 
-                struct Result {
+                struct Result: Decodable {
                     var artistID: Int
                     var trackName: String
                     var artworkUrl100: String
