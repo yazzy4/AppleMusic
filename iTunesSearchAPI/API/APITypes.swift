@@ -63,9 +63,17 @@ extension API {
                     ]
                 case .lookup(let id):
                     components.path = "/lookup"
+                    components.queryItems = [
+                        URLQueryItem(name: "id", value: "\(id)")
+                    ]
                 }
                 return components.url!
             }
+        }
+        
+        enum Method: String {
+            case get
+            case post
         }
     }
     

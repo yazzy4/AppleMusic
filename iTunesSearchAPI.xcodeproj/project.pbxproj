@@ -69,6 +69,7 @@
 				917F5CFE2912FA860070A48B /* API */,
 				917F5CF92912F6070070A48B /* App */,
 				917F5CEE2912F5AA0070A48B /* Assets.xcassets */,
+				917F5CF32912F5AA0070A48B /* Info.plist */,
 			);
 			path = iTunesSearchAPI;
 			sourceTree = "<group>";
@@ -80,7 +81,6 @@
 				917F5CE72912F5A60070A48B /* SceneDelegate.swift */,
 				917F5CEB2912F5A60070A48B /* Main.storyboard */,
 				917F5CF02912F5AA0070A48B /* LaunchScreen.storyboard */,
-				917F5CF32912F5AA0070A48B /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
